@@ -1,6 +1,6 @@
 FROM node:latest
 LABEL "project.home"="https://github.com/NekoSuneVR/avalon"
-RUN git clone git://github.com/NekoSuneVR/avalon
+RUN git clone https://github.com/NekoSuneVR/avalon.git
 WORKDIR /avalon
 RUN npm install
 EXPOSE 6001
